@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.main {
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 100px black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(140, 138, 138);
+  background-color: hsl(0, 0%, 95%);
+  width: 600px;
+  display: flex;
+}
+
+.container1 {
+  display: flex;
+  background-color: yellow;
+}
+
+#gold {
+  background-color: hsl(31, 77%, 52%);
+  display: block;
+  border-top-left-radius: 10px;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+#cyan {
+  background-color: hsl(184, 100%, 22%);
+  margin-bottom: 20px;
+  color: white;
+}
+
+#green {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  margin-bottom: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#icon {
+  margin: 20px;
+  margin-left: 15px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 35px;
+  text-align: left;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-color: none;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 100px;
+  border-color: none;
+}
+
+#suv {
+  margin-top: 38px;
+  margin-bottom: 10px;
+  border-color: none;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 100px;
+  color: hsl(184, 100%, 22%);
+}
+#sedan {
+  color: hsl(31, 77%, 52%);
+}
+#luxury {
+  color: hsl(179, 100%, 13%);
+}
